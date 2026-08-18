@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Servicios de Energía Térmica Industrial | QUEMPIN SPA</title>
+  <meta name="description" content="Diseño, instalación y mantención de quemadores industriales de alta eficiencia y soluciones de combustión a medida para plantas productivas en Chile.">
+  <meta name="keywords" content="servicios energía térmica, mantención de quemadores, instalación quemadores industriales, combustión industrial, QUEMPIN">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://quempin.cl/servicios/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Servicios de Energía Térmica Industrial | QUEMPIN SPA">
+  <meta property="og:description" content="Diseño, instalación y mantención de quemadores industriales de alta eficiencia y soluciones de combustión a medida en Chile.">
+  <meta property="og:url" content="https://quempin.cl/servicios/">
+  <meta property="og:image" content="https://quempin.cl/wp-content/uploads/2025/08/logo-icon-quempin.png">
+  <meta property="og:locale" content="es_CL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Servicios de Energía Térmica Industrial | QUEMPIN SPA">
+  <meta name="twitter:description" content="Diseño, instalación y mantención de quemadores industriales de alta eficiencia y combustión a medida en Chile.">
+  <meta name="twitter:image" content="https://quempin.cl/wp-content/uploads/2025/08/logo-icon-quempin.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"QUEMPIN SPA","url":"https://quempin.cl/","logo":"https://quempin.cl/wp-content/uploads/2025/08/logo-icon-quempin.png","description":"Empresa chilena especializada en quemadores industriales de medios porosos de alta eficiencia energética y en tecnología de hidrógeno verde.","address":{"@type":"PostalAddress","addressLocality":"Valparaíso","addressCountry":"CL"},"telephone":"+56993967635","sameAs":["https://www.linkedin.com/company/quempin","https://www.instagram.com/quempin","https://www.youtube.com/@quempinspa3834"]}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Lato:wght@400;700;900&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <script src="./image-slot.js"></script>
+  <style>html { scroll-behavior: smooth; } body { margin: 0; background: #0d0d0d; }</style>
+</helmet>
+
+<div style="font-family:Lato,Helvetica,Arial,sans-serif;color:#f5f4f1;background:#0d0d0d;line-height:1.6;overflow-x:hidden;">
+
+  <div style="position:fixed;top:0;left:0;height:2px;z-index:1001;background:#ff5100;transition:width 0.1s linear;{{ scrollBarWidth }}"></div>
+
+  <header ref="{{ headerRef }}" style="position:fixed;top:0;left:0;right:0;z-index:100;">
+    <div aria-hidden="true" style="position:absolute;top:0;left:0;right:0;bottom:-32px;z-index:-1;pointer-events:none;{{ headerFadeStyle }}"></div>
+    <div style="max-width:1400px;margin:0 auto;padding:1.5rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;">
+      <a href="index.html" style="display:flex;align-items:center;gap:0.6rem;text-decoration:none;">
+        <img src="assets/logo-icon-quempin.png" alt="" style="height:32px;width:auto;display:block;">
+        <span style="font-family:Poppins,sans-serif;font-size:1.05rem;font-weight:700;letter-spacing:-0.01em;"><span style="color:#f5f4f1">QUEMP</span><span style="color:#ff5100">IN</span></span>
+      </a>
+      <nav style="display:flex;align-items:center;gap:1.75rem;flex-wrap:wrap;{{ navRowCollapseStyle }}">
+        <a href="servicios.html" style="color:#ff5100;text-decoration:none;font-size:0.85rem;border-bottom:1px solid #ff5100;padding-bottom:2px;">Servicios</a>
+        <a href="sectores.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Sectores</a>
+        <a href="peru.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Perú</a>
+        <a href="hidrogeno-verde.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">H₂ Verde</a>
+        <a href="clientes.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Clientes</a>
+        <a href="nosotros.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Nosotros</a>
+        <a href="descargables.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Descargables</a>
+        <a href="index.html#sec-contacto" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Contacto</a>
+      </nav>
+      <button type="button" onClick="{{ toggleMobileNav }}" aria-label="Abrir menú" aria-expanded="{{ mobileNavOpen }}" style="{{ hamburgerBtnStyle }}">
+        <span style="display:block;width:18px;height:1.5px;background:#f5f4f1;{{ hamburgerLineTopStyle }}"></span>
+        <span style="display:block;width:18px;height:1.5px;background:#f5f4f1;{{ hamburgerLineMidStyle }}"></span>
+        <span style="display:block;width:18px;height:1.5px;background:#f5f4f1;{{ hamburgerLineBotStyle }}"></span>
+      </button>
+    </div>
+    <nav style="{{ mobileMenuStyle }}">
+      <a href="servicios.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#ff5100;text-decoration:none;font-size:0.95rem;">Servicios</a>
+      <a href="sectores.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Sectores</a>
+      <a href="peru.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Perú</a>
+      <a href="hidrogeno-verde.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">H₂ Verde</a>
+      <a href="clientes.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Clientes</a>
+      <a href="nosotros.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Nosotros</a>
+      <a href="descargables.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Descargables</a>
+      <a href="index.html#sec-contacto" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Contacto</a>
+    </nav>
+  </header>
+
+  <main style="padding-top:{{ headerHeight }}px;">
+    <section id="hero" style="padding:7rem 2rem 4rem;">
+      <p style="color:#ff5100;font-weight:600;letter-spacing:0.08em;font-size:0.8rem;margin:0 0 1.5rem;font-family:'JetBrains Mono',monospace;text-transform:uppercase;{{ heroStyle1 }}">Servicios</p>
+      <h1 style="font-family:Poppins,sans-serif;font-size:clamp(2.4rem, 6vw, 5rem);line-height:1;letter-spacing:-0.02em;margin:0 0 2rem;max-width:1100px;{{ heroStyle2 }}">Soluciones integrales en energía térmica</h1>
+      <p style="font-size:1.1rem;color:#98989a;max-width:620px;margin:0;{{ heroStyle3 }}">Desde el diseño de quemadores de medios porosos hasta la certificación normativa de instalaciones de gas: cuatro líneas de servicio que cubren todo el ciclo de vida de un sistema térmico industrial.</p>
+    </section>
+
+    <sc-for list="{{ servicios }}" as="svc" hint-placeholder-count="4">
+      <section id="{{ svc.id }}" style="{{ svc.sectionPad }}border-top:1px solid #1f1f1f;">
+        <div style="display:flex;flex-wrap:wrap;gap:3rem;">
+          <div style="flex:0 0 auto;{{ svc.textStyle }}"><span style="font-family:Poppins,sans-serif;font-size:0.95rem;color:#54565a;">{{ svc.n }}</span></div>
+          <div style="flex:1 1 420px;min-width:0;{{ svc.textStyle }}">
+            <h2 style="font-family:Poppins,sans-serif;font-size:clamp(1.6rem, 3vw, 2.4rem);margin:0 0 1rem;letter-spacing:-0.01em;">{{ svc.title }}</h2>
+            <p style="color:#98989a;font-size:1rem;max-width:560px;margin:0 0 1.5rem;">{{ svc.desc }}</p>
+            <ul style="list-style:none;margin:0 0 1.5rem;padding:0;display:flex;flex-direction:column;gap:0.5rem;">
+              <sc-for list="{{ svc.bullets }}" as="b" hint-placeholder-count="3">
+                <li style="color:#f5f4f1;font-size:0.95rem;">— {{ b }}</li>
+              </sc-for>
+            </ul>
+            <p style="color:#ff5100;font-family:'JetBrains Mono',monospace;font-size:0.72rem;letter-spacing:0.03em;text-transform:uppercase;margin:0;">{{ svc.tag }}</p>
+          </div>
+          <div style="flex:0 0 280px;aspect-ratio:4/3;overflow:hidden;border-radius:20px;box-shadow:0 16px 40px rgba(0,0,0,0.4);transition:transform 0.6s cubic-bezier(0.22,1,0.36,1);{{ svc.photoStyle }}" style-hover="transform:scale(1.035);">
+            <image-slot id="{{ svc.imgId }}" shape="rounded" radius="20" src="{{ svc.src }}" placeholder="{{ svc.placeholder }}" style="width:100%;height:100%;"></image-slot>
+          </div>
+        </div>
+      </section>
+    </sc-for>
+
+    <section style="padding:0 2rem 6rem;">
+      <a href="index.html#sec-contacto" style="color:#f5f4f1;text-decoration:none;font-size:0.95rem;border-bottom:1px solid #ff5100;padding-bottom:3px;transition:color 0.2s;" style-hover="color:#ff5100;">Solicitar evaluación técnica →</a>
+    </section>
+  </main>
+
+  <footer style="background:#0d0d0d;color:#98989a;padding:4rem 2rem 2rem;border-top:1px solid #1f1f1f;">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:2rem;padding-bottom:2rem;">
+      <a href="index.html" style="display:flex;align-items:center;gap:0.6rem;text-decoration:none;">
+        <img src="assets/logo-icon-quempin.png" alt="" style="height:32px;width:auto;display:block;">
+        <span style="font-family:Poppins,sans-serif;font-size:1.05rem;font-weight:700;"><span style="color:#f5f4f1">QUEMP</span><span style="color:#ff5100">IN</span></span>
+      </a>
+      <p style="font-size:0.88rem;margin:0;">QUEMPIN SPA — Valparaíso, Chile · +56 9 9396 7635</p>
+      <div style="display:flex;gap:1.5rem;flex-wrap:wrap;">
+        <a href="https://www.linkedin.com/company/quempin" target="_blank" rel="noopener" style="font-size:0.82rem;color:#54565a;text-decoration:none;transition:color 0.2s;" style-hover="color:#ff5100;">LinkedIn</a>
+        <a href="https://www.instagram.com/quempin?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" style="font-size:0.82rem;color:#54565a;text-decoration:none;transition:color 0.2s;" style-hover="color:#ff5100;">Instagram</a>
+        <a href="https://www.youtube.com/@quempinspa3834" target="_blank" rel="noopener" style="font-size:0.82rem;color:#54565a;text-decoration:none;transition:color 0.2s;" style-hover="color:#ff5100;">YouTube</a>
+      </div>
+    </div>
+    <p style="margin:0;font-size:0.78rem;color:#54565a;">© 2026 QUEMPIN SPA. Todos los derechos reservados.</p>
+  </footer>
+
+</div>
+</helmet>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { scrollPct: 0, showBackToTop: false, scrolled: false, headerHeight: 84, visible: {}, navCollapsed: false, mobileNavOpen: false };
+
+  headerRef = React.createRef();
+
+  serviciosDef = [
+    { id: 'mantencion', n: '01', title: 'Mantención de equipos de gas', desc: 'Técnicos e ingenieros mecánicos propios para mantención preventiva y correctiva de acumuladores, marmitas, calderas de agua y vapor, autoclaves, incineradores, quemadores industriales y secadores.', bullets: ['Tiempos de respuesta acotados ante fallas', 'Relación transparente, confiable y de calidad', 'Mantención preventiva y correctiva'], tag: 'Experiencia en: Cementerio General · Hospital San José · Escuela Naval Arturo Prat', imgId: 'serv-mantencion', placeholder: 'FOTO: técnico en mantención de equipo a gas', src: 'https://quempin.cl/wp-content/uploads/elementor/thumbs/Mantencion-Servicio-3-scaled-q1ky4spuziqfvkfoy5rufhqmy00gr448lcp6ybrp8k-rlcm6ridehnmfed7pnt210d2coyoa4hgukyxfqes1w.jpg' },
+    { id: 'innovacion', n: '02', title: 'Innovación en tecnologías de combustión', desc: 'I+D propia en quemadores de medios porosos inertes: la tecnología insignia de QUEMPIN, certificada por la SEC y escalable a múltiples procesos industriales.', bullets: ['Ahorra hasta un 20% de combustible', 'Bajos tiempos de calentamiento', 'Combustión limpia, certificada por la SEC', 'Reduce las emisiones de gas al mínimo'], tag: '', imgId: 'serv-innovacion', placeholder: 'FOTO: quemador de medios porosos en operación', src: 'assets/foto-quempin.jpg' },
+    { id: 'instalacion', n: '03', title: 'Instalación de gas (TC6 y TC7)', desc: 'Certificación de instalaciones interiores de gas nuevas o modificadas bajo normativa SEC — declaraciones TC6 y TC7 — y obtención de Sello Verde.', bullets: [], tag: 'Ejecutado en: Residencia de Adulto Mayor La Asunción de Villa Alemana (Hogar de Cristo) · Viviendas fiscales de la Contraloría General de la República · Crematorio del Cementerio General (TC7)', imgId: 'serv-instalacion', placeholder: 'FOTO: instalación de gas certificada', src: 'https://quempin.cl/wp-content/uploads/2023/02/Reg-Servicio-2-scaled.jpg' },
+    { id: 'ingenieria', n: '04', title: 'Proyectos de ingeniería', desc: 'Equipo multidisciplinario — dibujantes técnicos, mecánicos, eléctricos y electrónicos — para proyectos llave en mano de conversión y automatización térmica.', bullets: ['Conversión a gas de hornos, calderas y secadores', 'Reemplazo de quemadores (atmosféricos, vena de aire, monoblock, alta velocidad, radiantes, especiales)', 'Remodelación de hornos y calderas para cambio de combustible', 'Equipos térmicos a medida para procesos industriales', 'Tablero de control y automatización de procesos térmicos', 'Certificación de equipos térmicos'], tag: '', imgId: 'serv-ingenieria', placeholder: 'FOTO: proyectos de ingeniería térmica', src: 'https://quempin.cl/wp-content/uploads/elementor/thumbs/industrial-engineer-woman-working-at-pc-with-two-monitors-screens-showing-cad-software-q1rjdfxsta8esmo7kwfwzagth09dx3vwtmcjy8gx38-rlcm6pmp0tl1s6fy0mzsw0u55x7xuqa06bnyh6hkec.jpg' }
+  ];
+
+  componentDidMount() {
+    this.onScroll = () => {
+      const doc = document.documentElement;
+      const max = doc.scrollHeight - doc.clientHeight;
+      this.setState({ scrollPct: max > 0 ? (doc.scrollTop / max) * 100 : 0, showBackToTop: doc.scrollTop > 500, scrolled: doc.scrollTop > 10 });
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    this.onResize = () => {
+      const collapsed = window.innerWidth < 768;
+      this.setState((s) => (collapsed !== s.navCollapsed ? { navCollapsed: collapsed, mobileNavOpen: collapsed ? s.mobileNavOpen : false } : null));
+    };
+    this.onResize();
+    window.addEventListener('resize', this.onResize);
+    if (this.headerRef.current) {
+      const measureHeader = () => {
+        const h = this.headerRef.current ? this.headerRef.current.offsetHeight : 0;
+        if (h && h !== this.state.headerHeight) this.setState({ headerHeight: h });
+      };
+      measureHeader();
+      this.headerResizeObserver = new ResizeObserver(measureHeader);
+      this.headerResizeObserver.observe(this.headerRef.current);
+    }
+    const ids = ['hero', 'mantencion', 'innovacion', 'instalacion', 'ingenieria'];
+    this.observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && !this.state.visible[entry.target.id]) {
+          this.setState((s) => ({ visible: { ...s.visible, [entry.target.id]: true } }));
+        }
+      });
+    }, { threshold: 0.15 });
+    ids.forEach((id) => { const el = document.getElementById(id); if (el) this.observer.observe(el); });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('resize', this.onResize);
+    if (this.observer) this.observer.disconnect();
+    if (this.headerResizeObserver) this.headerResizeObserver.disconnect();
+  }
+
+  toggleMobileNav = () => this.setState((s) => ({ mobileNavOpen: !s.mobileNavOpen }));
+  closeMobileNav = () => this.setState({ mobileNavOpen: false });
+
+  scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  reveal(visible, delay) {
+    return visible
+      ? 'opacity:1;transform:none;transition:opacity 0.7s cubic-bezier(0.22,1,0.36,1) ' + delay + 's, transform 0.7s cubic-bezier(0.22,1,0.36,1) ' + delay + 's;'
+      : 'opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.22,1,0.36,1) ' + delay + 's, transform 0.7s cubic-bezier(0.22,1,0.36,1) ' + delay + 's;';
+  }
+
+  renderVals() {
+    const v = this.state.visible;
+    const servicios = this.serviciosDef.map((s, i) => ({
+      ...s,
+      sectionPad: i === this.serviciosDef.length - 1 ? 'padding:4rem 2rem 6rem;' : 'padding:4rem 2rem;',
+      textStyle: this.reveal(!!v[s.id], 0),
+      photoStyle: this.reveal(!!v[s.id], 0.12)
+    }));
+    return {
+      headerRef: this.headerRef,
+      headerHeight: this.state.headerHeight,
+      navRowCollapseStyle: this.state.navCollapsed ? 'display:none;' : '',
+      hamburgerBtnStyle: (this.state.navCollapsed ? 'display:flex;' : 'display:none;') + 'flex-direction:column;justify-content:center;align-items:center;gap:5px;width:40px;height:40px;background:none;border:1px solid #2a2a2a;border-radius:8px;cursor:pointer;padding:0;flex:0 0 auto;',
+      hamburgerLineTopStyle: this.state.mobileNavOpen ? 'transform:translateY(6.5px) rotate(45deg);transition:transform 0.25s;' : 'transition:transform 0.25s;',
+      hamburgerLineMidStyle: this.state.mobileNavOpen ? 'opacity:0;transition:opacity 0.15s;' : 'opacity:1;transition:opacity 0.15s;',
+      hamburgerLineBotStyle: this.state.mobileNavOpen ? 'transform:translateY(-6.5px) rotate(-45deg);transition:transform 0.25s;' : 'transition:transform 0.25s;',
+      mobileMenuStyle: (this.state.navCollapsed && this.state.mobileNavOpen)
+        ? 'display:flex;flex-direction:column;position:fixed;top:' + this.state.headerHeight + 'px;left:0;right:0;background:#0d0d0d;border-top:1px solid #1f1f1f;padding:0.5rem 2rem 1.5rem;gap:0.1rem;z-index:99;max-height:calc(100vh - ' + this.state.headerHeight + 'px);overflow-y:auto;box-shadow:0 24px 48px rgba(0,0,0,0.5);'
+        : 'display:none;',
+      toggleMobileNav: this.toggleMobileNav,
+      closeMobileNav: this.closeMobileNav,
+      mobileNavOpen: this.state.mobileNavOpen,
+      headerFadeStyle: this.state.scrolled
+        ? 'background:linear-gradient(180deg, rgba(13,13,13,0.95) 0%, rgba(13,13,13,0.85) 55%, rgba(13,13,13,0) 100%);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);-webkit-mask-image:linear-gradient(180deg, #000 0%, #000 55%, transparent 100%);mask-image:linear-gradient(180deg, #000 0%, #000 55%, transparent 100%);transition:background 0.6s ease, backdrop-filter 0.6s ease;'
+        : 'background:linear-gradient(180deg, rgba(13,13,13,0.5) 0%, rgba(13,13,13,0.18) 45%, rgba(13,13,13,0) 100%);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);-webkit-mask-image:linear-gradient(180deg, #000 0%, #000 30%, transparent 100%);mask-image:linear-gradient(180deg, #000 0%, #000 30%, transparent 100%);transition:background 0.6s ease, backdrop-filter 0.6s ease;',
+      scrollBarWidth: 'width:' + this.state.scrollPct + '%;',
+      backToTopStyle: this.state.showBackToTop ? 'opacity:1;transform:none;pointer-events:auto;' : 'opacity:0;transform:translateY(8px);pointer-events:none;',
+      heroStyle1: this.reveal(true, 0.05),
+      heroStyle2: this.reveal(true, 0.15),
+      heroStyle3: this.reveal(true, 0.28),
+      servicios,
+      scrollToTop: this.scrollToTop
+    };
+  }
+}
+
+</script>
+</body>
+</html>

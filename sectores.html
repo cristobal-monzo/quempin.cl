@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Sectores Industriales | QUEMPIN SPA</title>
+  <meta name="description" content="Soluciones de energía térmica y quemadores de alta eficiencia de QUEMPIN SPA aplicadas a distintos sectores de la industria chilena.">
+  <meta name="keywords" content="sectores industriales, energía térmica por industria, QUEMPIN">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://quempin.cl/sectores/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sectores Industriales | QUEMPIN SPA">
+  <meta property="og:description" content="Soluciones de energía térmica y quemadores de alta eficiencia aplicadas a distintos sectores de la industria chilena.">
+  <meta property="og:url" content="https://quempin.cl/sectores/">
+  <meta property="og:image" content="https://quempin.cl/wp-content/uploads/2025/08/logo-icon-quempin.png">
+  <meta property="og:locale" content="es_CL">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sectores Industriales | QUEMPIN SPA">
+  <meta name="twitter:description" content="Soluciones de energía térmica y quemadores de alta eficiencia por sector industrial.">
+  <meta name="twitter:image" content="https://quempin.cl/wp-content/uploads/2025/08/logo-icon-quempin.png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"QUEMPIN SPA","url":"https://quempin.cl/","logo":"https://quempin.cl/wp-content/uploads/2025/08/logo-icon-quempin.png","description":"Empresa chilena especializada en quemadores industriales de medios porosos de alta eficiencia energética y en tecnología de hidrógeno verde.","address":{"@type":"PostalAddress","addressLocality":"Valparaíso","addressCountry":"CL"},"telephone":"+56993967635","sameAs":["https://www.linkedin.com/company/quempin","https://www.instagram.com/quempin","https://www.youtube.com/@quempinspa3834"]}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Lato:wght@400;700;900&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <script src="./image-slot.js"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #0d0d0d; }
+    @keyframes qs-fadein { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</helmet>
+
+<div style="font-family:Lato,Helvetica,Arial,sans-serif;color:#f5f4f1;background:#0d0d0d;line-height:1.6;overflow-x:hidden;">
+
+  <div style="position:fixed;top:0;left:0;height:2px;z-index:1001;background:#ff5100;transition:width 0.1s linear;{{ scrollBarWidth }}"></div>
+
+  <header ref="{{ headerRef }}" style="position:fixed;top:0;left:0;right:0;z-index:100;">
+    <div aria-hidden="true" style="position:absolute;top:0;left:0;right:0;bottom:-32px;z-index:-1;pointer-events:none;{{ headerFadeStyle }}"></div>
+    <div style="max-width:1400px;margin:0 auto;padding:1.5rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;">
+      <a href="index.html" style="display:flex;align-items:center;gap:0.6rem;text-decoration:none;">
+        <img src="assets/logo-icon-quempin.png" alt="" style="height:32px;width:auto;display:block;">
+        <span style="font-family:Poppins,sans-serif;font-size:1.05rem;font-weight:700;letter-spacing:-0.01em;"><span style="color:#f5f4f1">QUEMP</span><span style="color:#ff5100">IN</span></span>
+      </a>
+      <nav style="display:flex;align-items:center;gap:1.75rem;flex-wrap:wrap;{{ navRowCollapseStyle }}">
+        <a href="servicios.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Servicios</a>
+        <a href="sectores.html" style="color:#ff5100;text-decoration:none;font-size:0.85rem;border-bottom:1px solid #ff5100;padding-bottom:2px;">Sectores</a>
+        <a href="peru.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Perú</a>
+        <a href="hidrogeno-verde.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">H₂ Verde</a>
+        <a href="clientes.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Clientes</a>
+        <a href="nosotros.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Nosotros</a>
+        <a href="descargables.html" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Descargables</a>
+        <a href="index.html#sec-contacto" style="color:#f5f4f1;text-decoration:none;font-size:0.85rem;transition:color 0.2s;" style-hover="color:#ff5100;">Contacto</a>
+      </nav>
+      <button type="button" onClick="{{ toggleMobileNav }}" aria-label="Abrir menú" aria-expanded="{{ mobileNavOpen }}" style="{{ hamburgerBtnStyle }}">
+        <span style="display:block;width:18px;height:1.5px;background:#f5f4f1;{{ hamburgerLineTopStyle }}"></span>
+        <span style="display:block;width:18px;height:1.5px;background:#f5f4f1;{{ hamburgerLineMidStyle }}"></span>
+        <span style="display:block;width:18px;height:1.5px;background:#f5f4f1;{{ hamburgerLineBotStyle }}"></span>
+      </button>
+    </div>
+    <nav style="{{ mobileMenuStyle }}">
+      <a href="servicios.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Servicios</a>
+      <a href="sectores.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#ff5100;text-decoration:none;font-size:0.95rem;">Sectores</a>
+      <a href="peru.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Perú</a>
+      <a href="hidrogeno-verde.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">H₂ Verde</a>
+      <a href="clientes.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Clientes</a>
+      <a href="nosotros.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Nosotros</a>
+      <a href="descargables.html" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Descargables</a>
+      <a href="index.html#sec-contacto" onClick="{{ closeMobileNav }}" style="display:block;padding:0.95rem 0;color:#f5f4f1;text-decoration:none;font-size:0.95rem;">Contacto</a>
+    </nav>
+  </header>
+
+  <main style="padding-top:{{ headerHeight }}px;">
+    <section style="padding:7rem 2rem 4rem;">
+      <p style="color:#ff5100;font-weight:600;letter-spacing:0.08em;font-size:0.8rem;margin:0 0 1.5rem;font-family:'JetBrains Mono',monospace;text-transform:uppercase;{{ heroStyle1 }}">Sectores</p>
+      <h1 style="font-family:Poppins,sans-serif;font-size:clamp(2.4rem, 6vw, 5rem);line-height:1;letter-spacing:-0.02em;margin:0 0 2rem;max-width:1000px;{{ heroStyle2 }}">Aplicaciones por vertical industrial</h1>
+      <p style="font-size:1.1rem;color:#98989a;max-width:620px;margin:0;{{ heroStyle3 }}">Seis frentes donde el diseño térmico de QUEMPIN reduce consumo de gas y emisiones — de líneas de alimentos a fundiciones mineras.</p>
+    </section>
+
+    <section id="sec-lista" style="padding:0 2rem 6rem;border-top:1px solid #1f1f1f;">
+      <div style="{{ listStyle }}">
+        <sc-for list="{{ sectores }}" as="s" hint-placeholder-count="6">
+          <div id="sector-{{ s.id }}" style="border-top:1px solid #2a2a2a;scroll-margin-top:{{ headerHeight }}px;">
+            <button type="button" onClick="{{ s.toggle }}" style="display:flex;gap:2rem;padding:1.75rem 1rem;margin:0 -1rem;width:calc(100% + 2rem);background:none;border:none;text-align:left;cursor:pointer;align-items:baseline;flex-wrap:wrap;transition:background-color 0.2s;" style-hover="background-color:#141414;">
+              <span style="flex:0 0 50px;font-family:Poppins,sans-serif;font-size:0.95rem;transition:color 0.25s;{{ s.numberStyle }}">{{ s.n }}</span>
+              <h2 style="font-family:Poppins,sans-serif;font-size:clamp(1.3rem, 2.2vw, 1.7rem);margin:0;color:#f5f4f1;flex:1 1 320px;letter-spacing:-0.01em;">{{ s.title }}</h2>
+              <span style="color:#ff5100;font-size:1.1rem;flex:0 0 auto;transition:transform 0.25s;{{ s.chevronStyle }}">{{ s.chevron }}</span>
+            </button>
+            <sc-if value="{{ s.expanded }}" hint-placeholder-val="{{ false }}">
+              <div style="padding:0.25rem 0 2.25rem;animation:qs-fadein 0.4s cubic-bezier(0.22,1,0.36,1);">
+                <div style="background:#131313;border-radius:20px;padding:2rem;display:flex;flex-direction:column;gap:1.85rem;">
+                  <div style="display:flex;gap:2rem;flex-wrap:wrap;align-items:stretch;">
+                    <div style="flex:1 1 320px;min-width:260px;aspect-ratio:16/10;overflow:hidden;border-radius:14px;box-shadow:0 14px 34px rgba(0,0,0,0.45);">
+                      <image-slot id="{{ s.imgId }}" shape="rounded" radius="14" src="{{ s.src }}" placeholder="{{ s.placeholder }}" style="width:100%;height:100%;"></image-slot>
+                    </div>
+                    <div style="flex:1 1 320px;min-width:260px;display:flex;flex-direction:column;justify-content:center;gap:0.85rem;">
+                      <p style="color:#ff5100;font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.08em;text-transform:uppercase;margin:0;">Sobre este sector</p>
+                      <p style="color:#c7c7c9;font-size:1.08rem;line-height:1.65;margin:0;">{{ s.intro }}</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p style="color:#98989a;font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.08em;text-transform:uppercase;margin:0 0 1rem;">Especialidades</p>
+                    <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));gap:1rem;">
+                      <sc-for list="{{ s.items }}" as="it" hint-placeholder-count="6">
+                        <div style="background:#181818;border-radius:12px;padding:1.1rem 1.2rem 1.25rem;border-top:2px solid #2a2a2a;transition:border-color 0.25s,transform 0.25s,background-color 0.25s;" style-hover="border-color:#ff5100;transform:translateY(-3px);background-color:#1c1c1c;">
+                          <h3 style="font-family:Poppins,sans-serif;font-size:0.95rem;margin:0 0 0.4rem;color:#f5f4f1;">{{ it.title }}</h3>
+                          <p style="color:#98989a;font-size:0.85rem;margin:0;line-height:1.5;">{{ it.text }}</p>
+                        </div>
+                      </sc-for>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </section>
+
+    <section style="padding:0 2rem 6rem;">
+      <a href="index.html#sec-contacto" style="color:#f5f4f1;text-decoration:none;font-size:0.95rem;border-bottom:1px solid #ff5100;padding-bottom:3px;transition:color 0.2s;" style-hover="color:#ff5100;">Solicitar evaluación técnica →</a>
+    </section>
+  </main>
+
+  <footer style="background:#0d0d0d;color:#98989a;padding:4rem 2rem 2rem;border-top:1px solid #1f1f1f;">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:2rem;padding-bottom:2rem;">
+      <a href="index.html" style="display:flex;align-items:center;gap:0.6rem;text-decoration:none;">
+        <img src="assets/logo-icon-quempin.png" alt="" style="height:32px;width:auto;display:block;">
+        <span style="font-family:Poppins,sans-serif;font-size:1.05rem;font-weight:700;"><span style="color:#f5f4f1">QUEMP</span><span style="color:#ff5100">IN</span></span>
+      </a>
+      <p style="font-size:0.88rem;margin:0;">QUEMPIN SPA — Valparaíso, Chile · +56 9 9396 7635</p>
+      <div style="display:flex;gap:1.5rem;flex-wrap:wrap;">
+        <a href="https://www.linkedin.com/company/quempin" target="_blank" rel="noopener" style="font-size:0.82rem;color:#54565a;text-decoration:none;transition:color 0.2s;" style-hover="color:#ff5100;">LinkedIn</a>
+        <a href="https://www.instagram.com/quempin?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" style="font-size:0.82rem;color:#54565a;text-decoration:none;transition:color 0.2s;" style-hover="color:#ff5100;">Instagram</a>
+        <a href="https://www.youtube.com/@quempinspa3834" target="_blank" rel="noopener" style="font-size:0.82rem;color:#54565a;text-decoration:none;transition:color 0.2s;" style-hover="color:#ff5100;">YouTube</a>
+      </div>
+    </div>
+    <p style="margin:0;font-size:0.78rem;color:#54565a;">© 2026 QUEMPIN SPA. Todos los derechos reservados.</p>
+  </footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { scrollPct: 0, showBackToTop: false, scrolled: false, headerHeight: 84, visible: {}, activeSector: null, navCollapsed: false, mobileNavOpen: false };
+
+  headerRef = React.createRef();
+
+  sectoresDef = [
+    { id: 'alimenticia', n: '01', title: 'Industria Alimenticia', intro: 'Equipos de línea caliente para panaderías, restaurantes y plantas de proceso, mantenidos en condiciones óptimas para no interrumpir la producción.', imgId: 'sec-alimenticia', placeholder: 'FOTO: cocina industrial', src: 'https://quempin.cl/wp-content/uploads/2023/05/commercial-kitchen.jpg', items: [
+      { title: 'Hornos industriales', text: 'Hornos a gas, semi industriales, eléctricos y pizzeros, con asesoría técnica para elegir el equipo de mejor relación precio-calidad.' },
+      { title: 'Deshidratado de alimentos', text: 'Mantención de quemadores de vena de aire, cámaras de secado y tableros de control de temperatura para fruta y verdura deshidratada.' },
+      { title: 'Plancha de cocina', text: 'Planchas a gas o eléctricas — incluidas planchas churrasqueras — para una cocción más sana sin perder sabor.' },
+      { title: 'Freidora industrial', text: 'Freidoras a gas, eléctricas o de inducción, operando con seguridad hasta 400 °F.' },
+      { title: 'Cocina industrial', text: 'Cocinas a gas, anafes y quemadores según la demanda de la línea caliente.' },
+      { title: 'Marmitas industriales', text: 'Ollas industriales de acero inoxidable para cocción de grandes volúmenes con ahorro energético.' },
+      { title: 'Sartén basculante', text: 'Olla a presión, freidora y plancha en un solo equipo — ahorra espacio en cocinas con oferta variada.' },
+      { title: 'Baño María', text: 'Calentamiento indirecto por convección térmica para mantener alimentos de forma suave y constante.' }
+    ] },
+    { id: 'calefaccion', n: '02', title: 'Calefacción Industrial', intro: 'Instalación, mantención y reparación de equipos de generación y distribución de calor para procesos industriales y edificios.', imgId: 'sec-calefaccion', placeholder: 'FOTO: sala de bombas de calor', src: 'https://quempin.cl/wp-content/uploads/2023/05/heat-pump-room-in-commercial-building.jpg', items: [
+      { title: 'Calefont', text: 'Instalación y reparación de calefont a gas, solar y eléctrico, en formatos de 11, 13 y 16 litros.' },
+      { title: 'Acumuladores', text: 'Instalación y mantenimiento de acumuladores térmicos eléctricos y a gas para almacenamiento de energía.' },
+      { title: 'Calderas', text: 'Calderas a gas de condensación, acuotubulares, pirotubulares y murales, con mantención preventiva y correctiva.' },
+      { title: 'Centrales térmicas', text: 'Bombas de calor, boilers y bombas de alimentación de calderas para soluciones energéticas integrales.' },
+      { title: 'Intercambiador de calor', text: 'Intercambiadores de placas, tubulares, de condensador y para calderas, con servicio de mantenimiento.' },
+      { title: 'Radiadores', text: 'Radiadores eléctricos de bajo consumo y de agua de aluminio, con servicio de reparación.' }
+    ] },
+    { id: 'fundiciones', n: '03', title: 'Fundiciones', intro: 'Quemadores de medios porosos patentados para fundición minera, con ahorros de hasta un 20% de combustible a gas y mejoras medibles en la eficiencia de fusión de cobre y otros metales.', imgId: 'sec-fundiciones', placeholder: 'FOTO: fundición de metales', src: 'https://quempin.cl/wp-content/uploads/2023/08/metals.jpg', items: [
+      { title: 'Tecnología patentada', text: 'Quemadores porosos diseñados y patentados por QUEMPIN específicamente para fundición de minerales.' },
+      { title: 'Ahorro de combustible', text: 'Hasta 20% menos consumo de gas frente a quemadores convencionales de fundición.' },
+      { title: 'Producción de metal fundido', text: 'Mejoras medibles en eficiencia de fusión de cobre, ánodos y otros metales.' }
+    ] },
+    { id: 'incineradores', n: '04', title: 'Incineradores', intro: 'Diseño, mantención y puesta en marcha de hornos a gas industriales y sistemas de incineración y cremación — de residuos hospitalarios a hornos crematorios — con soluciones a medida para cada aplicación.', imgId: 'sec-incineradores', placeholder: 'FOTO: horno incinerador industrial', src: null, items: [
+      { title: 'Hornos crematorios', text: 'Sistemas de cremación para uso humano, con mantención y puesta en marcha incluida.' },
+      { title: 'Incinerador de mascotas', text: 'Hornos de cremación diseñados para uso veterinario y pet care.' },
+      { title: 'Residuos hospitalarios', text: 'Incineración controlada de residuos hospitalarios bajo norma.' },
+      { title: 'Red de gas completa', text: 'Diseño e instalación desde el suministro de gas hasta el quemador del incinerador.' }
+    ] },
+    { id: 'solares', n: '05', title: 'Paneles Solares Térmicos', intro: 'Instalación, mantención y regulación de paneles solares térmicos y colectores solares para calefacción y agua caliente, dimensionados a la medida de cada hogar o proceso.', imgId: 'sec-solares', placeholder: 'FOTO: paneles solares térmicos', src: 'https://quempin.cl/wp-content/uploads/2023/05/renewable-energy-solar-panel-system-for-hot-water.jpg', items: [
+      { title: 'Termopaneles solares', text: 'Capturan energía del sol y la convierten en calor para agua caliente y calefacción.' },
+      { title: 'Colectores solares', text: 'Sistemas dimensionados a la medida de cada hogar o proceso industrial.' },
+      { title: 'Instalación y mantención', text: 'Diseño, instalación y mantenimiento con la máxima eficiencia y rapidez.' }
+    ] },
+    { id: 'bombas', n: '06', title: 'Bombas Sanitarias', intro: 'Bombas sumergibles de pozo, recirculadoras y centrífugas para suministro de agua confiable en hogares, procesos industriales y sistemas de calefacción.', imgId: 'sec-bombas', placeholder: 'FOTO: bombas sanitarias', src: 'https://quempin.cl/wp-content/uploads/2023/05/sanitaria.jpg', items: [
+      { title: 'Bombas sumergibles', text: 'Para pozo profundo o depósito subterráneo, a precios competitivos.' },
+      { title: 'Bombas recirculadoras', text: 'Ahorro de agua y energía en sistemas de calefacción.' },
+      { title: 'Bombas centrífugas', text: 'Transporte eficiente de grandes volúmenes de agua.' }
+    ] }
+  ];
+
+  componentDidMount() {
+    this.onScroll = () => {
+      const doc = document.documentElement;
+      const max = doc.scrollHeight - doc.clientHeight;
+      this.setState({ scrollPct: max > 0 ? (doc.scrollTop / max) * 100 : 0, showBackToTop: doc.scrollTop > 500, scrolled: doc.scrollTop > 10 });
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    this.onResize = () => {
+      const collapsed = window.innerWidth < 768;
+      this.setState((s) => (collapsed !== s.navCollapsed ? { navCollapsed: collapsed, mobileNavOpen: collapsed ? s.mobileNavOpen : false } : null));
+    };
+    this.onResize();
+    window.addEventListener('resize', this.onResize);
+    if (this.headerRef.current) {
+      const measureHeader = () => {
+        const h = this.headerRef.current ? this.headerRef.current.offsetHeight : 0;
+        if (h && h !== this.state.headerHeight) this.setState({ headerHeight: h });
+      };
+      measureHeader();
+      this.headerResizeObserver = new ResizeObserver(measureHeader);
+      this.headerResizeObserver.observe(this.headerRef.current);
+    }
+    this.observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && !this.state.visible[entry.target.id]) {
+          this.setState((s) => ({ visible: { ...s.visible, [entry.target.id]: true } }));
+        }
+      });
+    }, { threshold: 0.1 });
+    const el = document.getElementById('sec-lista');
+    if (el) this.observer.observe(el);
+
+    this.onHashChange = () => this.applyHashSector();
+    window.addEventListener('hashchange', this.onHashChange);
+    this.applyHashSector();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('hashchange', this.onHashChange);
+    window.removeEventListener('resize', this.onResize);
+    if (this.observer) this.observer.disconnect();
+    if (this.headerResizeObserver) this.headerResizeObserver.disconnect();
+  }
+
+  toggleMobileNav = () => this.setState((s) => ({ mobileNavOpen: !s.mobileNavOpen }));
+  closeMobileNav = () => this.setState({ mobileNavOpen: false });
+
+  scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  toggleSector(i) {
+    this.setState((s) => ({ activeSector: s.activeSector === i ? null : i }));
+  }
+
+  applyHashSector() {
+    const hash = (window.location.hash || '').slice(1);
+    const m = hash.match(/^sector-(.+)$/);
+    if (!m) return;
+    const idx = this.sectoresDef.findIndex((s) => s.id === m[1]);
+    if (idx === -1) return;
+    this.setState({ activeSector: idx });
+    const headerH = () => (this.headerRef && this.headerRef.current) ? this.headerRef.current.offsetHeight : this.state.headerHeight;
+    const scrollNow = () => {
+      const el = document.getElementById(hash);
+      if (!el) return false;
+      window.scrollTo(0, Math.max(el.getBoundingClientRect().top + window.pageYOffset - headerH() - 8, 0));
+      return true;
+    };
+    let frames = 0;
+    const waitForEl = () => {
+      if (scrollNow()) { setTimeout(scrollNow, 350); setTimeout(scrollNow, 900); return; }
+      frames++;
+      if (frames < 90) requestAnimationFrame(waitForEl);
+    };
+    waitForEl();
+  }
+
+  reveal(visible, delay) {
+    return visible
+      ? 'opacity:1;transform:none;transition:opacity 0.7s cubic-bezier(0.22,1,0.36,1) ' + delay + 's, transform 0.7s cubic-bezier(0.22,1,0.36,1) ' + delay + 's;'
+      : 'opacity:0;transform:translateY(22px);transition:opacity 0.7s cubic-bezier(0.22,1,0.36,1) ' + delay + 's, transform 0.7s cubic-bezier(0.22,1,0.36,1) ' + delay + 's;';
+  }
+
+  renderVals() {
+    const active = this.state.activeSector;
+    const v = this.state.visible;
+    const sectores = this.sectoresDef.map((s, i) => ({
+      ...s,
+      expanded: active === i,
+      chevron: active === i ? '−' : '+',
+      chevronStyle: active === i ? 'transform:rotate(-90deg);' : 'transform:rotate(0deg);',
+      toggle: () => this.toggleSector(i),
+      numberStyle: active === i ? 'color:#ff5100;' : 'color:#54565a;'
+    }));
+    return {
+      headerRef: this.headerRef,
+      headerHeight: this.state.headerHeight,
+      navRowCollapseStyle: this.state.navCollapsed ? 'display:none;' : '',
+      hamburgerBtnStyle: (this.state.navCollapsed ? 'display:flex;' : 'display:none;') + 'flex-direction:column;justify-content:center;align-items:center;gap:5px;width:40px;height:40px;background:none;border:1px solid #2a2a2a;border-radius:8px;cursor:pointer;padding:0;flex:0 0 auto;',
+      hamburgerLineTopStyle: this.state.mobileNavOpen ? 'transform:translateY(6.5px) rotate(45deg);transition:transform 0.25s;' : 'transition:transform 0.25s;',
+      hamburgerLineMidStyle: this.state.mobileNavOpen ? 'opacity:0;transition:opacity 0.15s;' : 'opacity:1;transition:opacity 0.15s;',
+      hamburgerLineBotStyle: this.state.mobileNavOpen ? 'transform:translateY(-6.5px) rotate(-45deg);transition:transform 0.25s;' : 'transition:transform 0.25s;',
+      mobileMenuStyle: (this.state.navCollapsed && this.state.mobileNavOpen)
+        ? 'display:flex;flex-direction:column;position:fixed;top:' + this.state.headerHeight + 'px;left:0;right:0;background:#0d0d0d;border-top:1px solid #1f1f1f;padding:0.5rem 2rem 1.5rem;gap:0.1rem;z-index:99;max-height:calc(100vh - ' + this.state.headerHeight + 'px);overflow-y:auto;box-shadow:0 24px 48px rgba(0,0,0,0.5);'
+        : 'display:none;',
+      toggleMobileNav: this.toggleMobileNav,
+      closeMobileNav: this.closeMobileNav,
+      mobileNavOpen: this.state.mobileNavOpen,
+      headerFadeStyle: this.state.scrolled
+        ? 'background:linear-gradient(180deg, rgba(13,13,13,0.95) 0%, rgba(13,13,13,0.85) 55%, rgba(13,13,13,0) 100%);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);-webkit-mask-image:linear-gradient(180deg, #000 0%, #000 55%, transparent 100%);mask-image:linear-gradient(180deg, #000 0%, #000 55%, transparent 100%);transition:background 0.6s ease, backdrop-filter 0.6s ease;'
+        : 'background:linear-gradient(180deg, rgba(13,13,13,0.5) 0%, rgba(13,13,13,0.18) 45%, rgba(13,13,13,0) 100%);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);-webkit-mask-image:linear-gradient(180deg, #000 0%, #000 30%, transparent 100%);mask-image:linear-gradient(180deg, #000 0%, #000 30%, transparent 100%);transition:background 0.6s ease, backdrop-filter 0.6s ease;',
+      scrollBarWidth: 'width:' + this.state.scrollPct + '%;',
+      backToTopStyle: this.state.showBackToTop ? 'opacity:1;transform:none;pointer-events:auto;' : 'opacity:0;transform:translateY(8px);pointer-events:none;',
+      heroStyle1: this.reveal(true, 0.05),
+      heroStyle2: this.reveal(true, 0.15),
+      heroStyle3: this.reveal(true, 0.25),
+      listStyle: this.reveal(!!v['sec-lista'], 0),
+      sectores,
+      scrollToTop: this.scrollToTop
+    };
+  }
+}
+
+</script>
+</body>
+</html>
